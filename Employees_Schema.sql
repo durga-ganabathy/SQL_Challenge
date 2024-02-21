@@ -19,7 +19,7 @@ CREATE TABLE titles (
 CREATE TABLE employees (
 	emp_no integer not null,
 	emp_title_id varchar(20) not null ,
-    birth_date Date not null,
+        birth_date Date not null,
 	first_name varchar(30) not null,
 	last_name varchar(30) not null,
 	sex varchar(10) not null,
